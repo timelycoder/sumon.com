@@ -155,6 +155,50 @@ main {
   color: #757575;
 }
 
+/* resume section styles  */
 .summery {
   padding-top: 130px;
+}
+
+.resume-comtainer {
+  display: flex;
+  gap: 50px;
+  margin: 30px;
+
+}
+
+.resume-column-title {
+  font-size: 35px;
+}
+
+.resume-column {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.resume-item-title {
+  /* color: #474747; */
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10;
+}
+
+.resume-item-institute {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.resume-item-description,
+.resume-item-institute {
+  color: #757575;
+}
+
+.resume-container hr {
+  margin: 30px;
+}
+
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
 }
