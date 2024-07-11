@@ -45,8 +45,9 @@ body {
   background-image: url('../images/header_bg.png');
   background-repeat: no-repeat;
   background-position: bottom right;
+
   display: flex;
-  padding: 15px;
+
 }
 
 /* nav related styles  */
@@ -54,7 +55,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 200px;
+  margin: 0 130px;
+
 }
 
 .nav-title {
@@ -71,22 +73,29 @@ nav>ul {
 
 nav li {
   list-style: none;
-  margin-right: 50px;
+  margin-right: 20px;
 }
+
+
 
 nav a {
   text-decoration: none;
 }
 
 .banner {
-  padding: 30px 30px 0px 150px;
+  padding: 30px 0px 0px 120px;
   display: flex;
+  gap: 100px;
+
 
   justify-content: space-between;
+  margin-top: 50px;
+
 }
 
 .banner-content {
-  max-width: 585px;
+  max-width: 600px;
+  padding-top: 60px;
 }
 
 .banner-greeting {
@@ -108,8 +117,26 @@ nav a {
   margin-bottom: 20px;
 }
 
+.contact-btn {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 30px;
+}
+
+.banner-img {
+
+  padding-top: 95px;
+  padding-right: 0;
+  padding-bottom: 0;
+
+
+}
+
 .profile-pic {
-  width: 500px;
+  width: 100%;
+  vertical-align: middle;
+
+
 }
 
 /* main section styles  */
