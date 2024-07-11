@@ -196,6 +196,7 @@ main {
 
 .resume-column-title {
   font-size: 35px;
+  margin-bottom: 30px;
 }
 
 .resume-column {
@@ -216,13 +217,24 @@ main {
   margin-top: 0;
 }
 
+.resume-item-description {
+  /* padding-bottom: 20px; */
+  margin-bottom: 20px;
+}
+
 .resume-item-description,
 .resume-item-institute {
   color: #757575;
+
+}
+
+hr {
+  margin-bottom: 20px;
 }
 
 .resume-container hr {
   margin: 30px;
+
 }
 
 .download-cv {
