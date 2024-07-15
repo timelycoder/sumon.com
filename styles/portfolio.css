@@ -75,6 +75,7 @@ nav>ul {
 nav li {
   list-style: none;
   margin-right: 20px;
+  padding-bottom: 20px;
 }
 
 
@@ -120,8 +121,9 @@ nav a {
 
 .contact-btn {
   display: flex;
-  /* justify-content: space-around; */
+
   gap: 30px;
+
 }
 
 .banner-img {
@@ -134,7 +136,7 @@ nav a {
 }
 
 .profile-pic {
-  width: 100%;
+  width: 500px;
   vertical-align: middle;
 
 
@@ -162,13 +164,13 @@ main {
 }
 
 .about-info {
-  /* text-align: center; */
+  padding-bottom: 30px;
 }
 
 .skills-container {
   display: flex;
   padding-top: 30px;
-  /* gap: 90px 30px; */
+
   column-gap: 20px;
 }
 
@@ -188,7 +190,7 @@ main {
   padding-top: 130px;
 }
 
-.resume-comtainer {
+.resume-container {
   display: flex;
   gap: 50px;
   margin: 30px;
@@ -257,7 +259,8 @@ footer {
   width: 50%;
 }
 
-.social-links {
+.social-links,
+.banner {
   padding-top: 20px;
 
 }
@@ -277,4 +280,73 @@ textarea {
   border-radius: 5px;
   background-color: #fff;
   border: 0;
+  width: 100%;
+}
+
+
+/* responsive style  */
+/* mobile device  */
+.hide {
+  display: none;
+}
+
+
+@media screen and (max-width:576px) {
+  .header {
+    background-image: none;
+
+  }
+
+  .banner,
+  nav,
+  nav>ul,
+  header,
+  .contact-btn,
+
+  .skills-container,
+  .resume-container,
+  .about-info-container,
+  footer {
+    flex-direction: column;
+  }
+
+  .profile-pic {
+    width: 100%;
+  }
+
+  nav {
+    margin: 10px;
+  }
+
+  .developer-img {
+    display: none;
+  }
+
+  footer,
+
+  .banner,
+  .about {
+    padding: 10px;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+
+  .contact input[type="text"],
+  .contact input[type="email"],
+  textarea {
+    width: 80%;
+  }
+
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+  footer {
+    padding: 30px;
+  }
+
+  .btn-primary {
+    margin-bottom: 15px;
+  }
 }
