@@ -22,6 +22,18 @@ body {
   border: none;
 }
 
+/* for animation css  */
+.animate__animated.animate__bounce.animate__pulse {
+  --animate-duration: 2s;
+}
+
+.animate__animated.animate__pulse {}
+
+
+/* for animation css  */
+/* for aos animation  */
+
+
 .section-title {
   color: #181818;
   text-align: center;

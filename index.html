@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- for animation css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- for aos animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
@@ -19,12 +26,16 @@
       </div>
       <div>
         <nav>
-          <h3 class="nav-title">Su<span class="text-primary">m</span>on</h3>
+          <h3 class="nav-title animate__animated animate__bounce">
+            Su<span class="text-primary">m</span>on
+          </h3>
           <ul>
             <li><a href="">portfolio</a></li>
             <li><a href="">Blog</a></li>
 
-            <li><button class="btn-primary">Hire me</button></li>
+            <li>
+              <button class="btn-primary">Hire me</button>
+            </li>
           </ul>
         </nav>
         <div class="banner">
@@ -76,6 +87,7 @@
         </div>
       </section>
       <!-- whit i do section start  -->
+      <!-- here data aos for animation  -->
       <section class="what-i-do">
         <div class="section-title">What I do</div>
         <div class="section-description">
@@ -86,7 +98,7 @@
           meets clients requirements in our mata.
         </div>
         <div class="skills-container">
-          <div class="skills">
+          <div data-aos="zoom-in-down" data-aos-duration="2000" class="skills">
             <img src="./images/icons/react.png" alt="" />
             <h3>React</h3>
             <p class="skills-desvription">
@@ -95,7 +107,7 @@
               ligula eget dolor.
             </p>
           </div>
-          <div class="skills">
+          <div data-aos="zoom-in-down" data-aos-duration="2000" class="skills">
             <img src="./images/icons/nodejs.png" alt="" />
             <h3>Node.js</h3>
             <p class="skills-desvription">
@@ -104,7 +116,7 @@
               ligula eget dolor.
             </p>
           </div>
-          <div class="skills">
+          <div data-aos="zoom-in-down" data-aos-duration="2000" class="skills">
             <img src="./images/icons/mongo.png" alt="" />
             <h3>MongoDB</h3>
             <p class="skills-desvription">
@@ -113,7 +125,7 @@
               ligula eget dolor.
             </p>
           </div>
-          <div class="skills">
+          <div data-aos="zoom-in-down" data-aos-duration="2000" class="skills">
             <img src="./images/icons/js.png" alt="" />
             <h3>Vanilla JavaScript</h3>
             <p class="skills-desvription">
@@ -211,11 +223,13 @@
           Please fill out the form on this section to contact with me or call
           between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
         </p>
-        <div class="social-links">
+        <div class="social-links animate__animated animate__pulse">
           <a href="https://www.facebook.com/profile.php?id=100007060265379"
             ><img src="images/icons/facebook.png" alt=""
           /></a>
-          <a href=""><img src="images/icons/twitter.png" alt="" /></a>
+          <a href=" https://x.com/sumon4440505"
+            ><img src="images/icons/twitter.png" alt=""
+          /></a>
           <a href=""><img src="images/icons/insta.png" alt="" /></a>
         </div>
       </div>
@@ -229,5 +243,10 @@
         </form>
       </div>
     </footer>
+    <!-- this is for aos animation  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
